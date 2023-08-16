@@ -1,0 +1,155 @@
+body{
+background-color: rgb(0, 0, 0);
+}
+
+.search-bar{
+  display: grid;
+  grid-template-columns: repeat(4, 5px);
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+.search-bar a{
+  font-weight: bold;
+  color: rgb(55, 156, 55);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex-basis: 5px;
+  padding: 10px;
+}
+
+
+.info{
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  padding: 10px;
+  grid-gap: 100px;
+}
+
+.info p{
+  width:330px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  color: rgb(5, 107, 5);
+
+}
+
+.profile_photo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 10px;
+  border:5px solid rgb(1, 43, 8); 
+}
+
+.profile_photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.faixa {
+  width: 100%;
+  background-color: rgb(9, 83, 25);
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 15px;
+  margin-bottom: 0px;
+}
+
+.faixa2 {
+  width: 100%;
+  background-color: rgb(6, 116, 30);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  height: 15px;
+}
+
+
+/* posts */
+.post{
+ display:grid;
+ grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+ justify-content: center;
+ gap: 1.5rem;
+ margin-top:5px;
+}
+.post-box{
+  background: rgb(96, 163, 94);
+  box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
+  padding: 15px;
+  border-radius: 0.5rem;
+  width: 250px;
+  margin-right: 1000px;
+}
+.post-img{
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+}
+.category{
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color:rgb(23, 97, 51);
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+.post-title{
+  margin-top:5px;
+  margin-bottom:10px;
+  font-size:1.3rem;
+  font-weight:600;
+  color:rgb(6, 65, 21);
+  /* To Remain Title in 2 lines*/
+  display: -webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient: vertical;
+  overflow:hidden;
+}
+.post-date{
+  display:flex;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.post-description{
+  margin-bottom:10px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin: 5px 0 10px;
+  /* To remain title in 3 lines*/
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow:hidden;
+}
+.profile{
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile-img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border:2px solid rgb(1, 43, 8);
+}
+
+
+
